@@ -8,7 +8,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 
-APP_NAME = '%app_name%'
+APP_NAME = 'profiler'
 LICENSE = 'MPL 2.0'
 
 
@@ -18,7 +18,7 @@ setup(
     packages=[APP_NAME],
     include_package_data=True,
     license=LICENSE,
-    description='app description',
+    description='advanced profiling info',
     long_description=README,
     #url='http://www.example.com/',
     author='Andrey Kuzmin',

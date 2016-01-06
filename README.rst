@@ -1,11 +1,11 @@
 =====
-%app_name%
+profiler
 =====
 
-app description
+advanced profiling info
 
 Quick start
 -----------
 
-1. Add "%app_name%" to your INSTALLED_APPS setting.
-2. Use it.
+1. Add "profiler.middleware.ProfilerMiddleware" to your MIDDLEWARE_CLASSES setting.
+2. Add "?prof" to url of any page for see profiling info.

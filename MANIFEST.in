@@ -1,6 +1,6 @@
 include LICENSE
 include MANIFEST.in
 include *.rst
-graft %app_name%
+graft profiler
 global-exclude __pycache__
 global-exclude *.py[co]
