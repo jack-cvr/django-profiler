@@ -7,11 +7,5 @@ app description
 Quick start
 -----------
 
-1. Add "%app_name%" to your INSTALLED_APPS setting like this::
-
-    INSTALLED_APPS = (
-        ...
-        '%app_name%',
-    )
-
+1. Add "%app_name%" to your INSTALLED_APPS setting.
 2. Use it.
